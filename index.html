@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <title>이예진 포토폴리오</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- 글꼴 -->
+    <link
+      href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://webfontworld.github.io/LotteriaChab/LotteriaChab.css"
+      rel="stylesheet"
+    />
+    <!-- 폰트어썸 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- jq -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.transform2d.js"></script>
+    <script src="js/custom.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="img/LOGO.png" alt="logo" />
+      </a>
+      <ul>
+        <li class="on"><a href="#home">home</a></li>
+        <li><a href="#aboutme">about me</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#design">design</a></li>
+      </ul>
+    </header>
+
+    <nav id="sNav">
+      <a href="#home" class="on"></a>
+      <a href="#aboutme"></a>
+      <a href="#portfolio"></a>
+      <a href="#design"></a>
+    </nav>
+
+    <section id="home">
+      <h1>
+        webdesigner<br />
+        leeyejin
+      </h1>
+      <h2>지속적인 발전을 위해 노력하는</h2>
+
+      <i class="fa-solid fa-angles-down"></i>
+    </section>
+
+    <section id="aboutme">
+      <ul class="rolling">
+        <li>
+          <p>lyj webdesign portfolio</p>
+          <p>lyj webdesign portfolio</p>
+          <p>lyj webdesign portfolio</p>
+          <p>lyj webdesign portfolio</p>
+        </li>
+        <li>
+          <p>lyj webdesign portfolio</p>
+          <p>lyj webdesign portfolio</p>
+          <p>lyj webdesign portfolio</p>
+          <p>lyj webdesign portfolio</p>
+        </li>
+      </ul>
+
+      <div class="wrap">
+        <ul class="profile">
+          <li class="circle">
+            <div class="cfront"><img src="img/lyj.jpg" alt="사진" /></div>
+            <div class="cback">'맡은 일에 최선을 다하는 웹디자이너'</div>
+          </li>
+          <li>
+            <p><span>Name :</span>이예진</p>
+            <p><span>Brith :</span>1998.06.20</p>
+            <p><span>Tel :</span>010-4669-7867</p>
+            <p><span>Mail :</span>dpswueo@naver.com</p>
+            <p><span>Education :</span>평택대학교 환경융합전공 졸업</p>
+            <p>
+              <span>Certificate :</span>컴퓨터활용능력 2급(2023), GTQ1급(2024),
+              웹디자인기능사(2024)
+            </p>
+          </li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul class="skills">
+          <li><i class="fab fa-html5"></i></li>
+          <li><i class="fab fa-css3-alt"></i></li>
+          <li><img class="jquery" src="img/jquery.png" alt="jquery" /></li>
+          <li><i class="fa-brands fa-square-js"></i></li>
+          <li><i class="fa-brands fa-react"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+          <li><img src="img/illustrator.png" alt="Illustrator " /></li>
+          <li><img src="img/photoshop.png" alt="photoshop" /></li>
+          <li><img src="img/powerpoint_732224.png" alt="powerpoint" /></li>
+          <li><img src="img/excel_732220.png" alt="excel" /></li>
+          <li><img src="img/word_732226.png" alt="word" /></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="https://lyjji.github.io/dancingcider/">
+              <img src="img/dcc_img.jpg" alt="댄싱사이더" />
+            </a>
+            <ul class="txtbox">
+              <li>
+                <h2>dancing cider</h2>
+                <p><span>tool :</span>Figma , HTML, CSS, JS</p>
+                <p><span>참여도 :</span>100%</p>
+              </li>
+              <li>
+                <button
+                  onclick="window.open('https://lyjji.github.io/dancingcider/','_blank')"
+                >
+                  website
+                </button>
+                <button class="opmodal">기획서</button>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://lyjji.github.io/" target="_blank"
+              ><img src="img/널담.png" alt="널담"
+            /></a>
+            <ul class="txtbox">
+              <li>
+                <h2>nuldam</h2>
+                <p><span>tool :</span>Figma , HTML, CSS, React</p>
+                <p><span>참여도 :</span>100%</p>
+              </li>
+              <li>
+                <button
+                  onclick="window.open('https://lyjji.github.io/','_blank')"
+                >
+                  website
+                </button>
+                <button>기획서</button>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://lyjji.github.io/movie/" target="_blank"
+              ><img src="img/heligo.png" alt="영화api"
+            /></a>
+            <ul class="txtbox">
+              <li>
+                <h2>영화정보사이트</h2>
+                <p><span>tool :</span>Figma , HTML, CSS, JS</p>
+                <p><span>참여도 : 33%(서브페이지)</span></p>
+              </li>
+
+              <li>
+                <button
+                  onclick="window.open('https://lyjji.github.io/movie/','_blank')"
+                >
+                  website
+                </button>
+                <button>기획서</button>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://lyjji.github.io/weather/" target="_blank"
+              ><img src="img/weather.png" alt="날씨api"
+            /></a>
+            <ul class="txtbox">
+              <li>
+                <h2>날씨</h2>
+                <p><span>tool :</span>Figma , HTML, CSS, JS</p>
+                <p><span>참여도 :</span>100%</p>
+              </li>
+
+              <li>
+                <button
+                  onclick="window.open('https://lyjji.github.io/weather/','_blank')"
+                >
+                  website
+                </button>
+                <button>기획서</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: false,
+          },
+        });
+      </script>
+
+      <!-- <div class="txtbox">
+        <h2>dancing cider</h2>
+        <p><span>tool :</span></p>
+        <p><span>참여도 :</span></p>
+        <div>
+          <button onclick="window.open('','_blank')">website</button>
+          <button onclick="window.open('','_blank')">website</button>
+        </div>
+      </div> -->
+      <!-- <ul class="txtbox">
+        <li>
+          <h2>dancing cider</h2>
+          <p><span>tool :</span></p>
+          <p><span>참여도 :</span></p>
+          <div>
+            <button onclick="window.open('','_blank')">website</button>
+            <button onclick="window.open('','_blank')">website</button>
+          </div>
+        </li>
+        <li>
+          <h2>dancing cider</h2>
+          <p><span>tool :</span></p>
+          <p><span>참여도 :</span></p>
+          <div>
+            <button onclick="window.open('','_blank')">website</button>
+            <button onclick="window.open('','_blank')">website</button>
+          </div>
+        </li>
+        <li>
+          <h2>dancing cider</h2>
+          <p><span>tool :</span></p>
+          <p><span>참여도 :</span></p>
+          <div>
+            <button onclick="window.open('','_blank')">website</button>
+            <button onclick="window.open('','_blank')">website</button>
+          </div>
+        </li>
+        <li>
+          <h2>dancing cider</h2>
+          <p><span>tool :</span></p>
+          <p><span>참여도 :</span></p>
+          <div>
+            <button onclick="window.open('','_blank')">website</button>
+            <button onclick="window.open('','_blank')">website</button>
+          </div>
+        </li>
+      </ul> -->
+    </section>
+
+    <section id="design">
+      <ul>
+        <li>
+          <a href="#"><img src="img/ice.jpg" alt="여름맞이이벤트" /></a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- <img src="img/design (2).PNG" alt="디자인" /> -->
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- <img src="img/design (3).PNG" alt="디자인" /></a> -->
+        </li>
+        <li>
+          <a href="#">
+            <!-- <img src="img/design (4).PNG" alt="디자인" /> -->
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- <img src="img/design (5).PNG" alt="디자인" /> -->
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- <img src="img/design (6).PNG" alt="디자인" /></a> -->
+        </li>
+      </ul>
+    </section>
+
+    <section id="modal">
+      <div class="mbox">
+        <div class="mimg">
+          <img src="img/dcc (1).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (2).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (3).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (4).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (5).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (6).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (7).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (8).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (9).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (10).jpg" alt="Dancing-cider기획서" />
+          <img src="img/dcc (11).jpg" alt="Dancing-cider기획서" />
+        </div>
+        <button>&times;</button>
+      </div>
+    </section>
+
+    <footer>
+      본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
+      <br />
+      © 2024 . All Rights Reserved.
+    </footer>
+  </body>
+</html>
